@@ -6,7 +6,7 @@ interface OrderSummaryProps {
 
 export default function OrderSummary({ total }: OrderSummaryProps) {
   return (
-    <div className="flex-1 rounded-xl border px-6 py-8 dark:border-white/10">
+    <div className="flex-1 rounded-xl border px-6 py-8 dark:border-white/10 h-fit">
       <h3 className="mb-10 text-base font-semibold text-primary dark:text-white">Order Summary</h3>
       <div className="flex flex-col gap-3">
         <div className="flex items-center justify-between">
